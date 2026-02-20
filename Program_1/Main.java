@@ -18,15 +18,15 @@ class Calc {
     }
 
     public int Add() {
-        return this.a + this.b;
+        return a + b;
     }
 
     public int Sub() {
-        return this.a - this.b;
+        return a - b;
     }
 
     public int Mul() {
-        return this.a * this.b;
+        return a * b;
     }
 
     public double Div() {
@@ -34,7 +34,7 @@ class Calc {
             System.out.println("Error: Can't be divided by 0");
             return 0;
         }
-        return (double) this.a / this.b;
+        return (double) a / b;
     }
 }
 
@@ -88,7 +88,6 @@ public class Main {
                 default:
                     System.out.println("Invalid Choice");
             }
-            sc.close();
         }
     }
 }
